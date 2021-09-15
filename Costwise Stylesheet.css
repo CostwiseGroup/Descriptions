@@ -1,0 +1,219 @@
+/* Banner style with poly background*/
+.banner {
+background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),url("https://i.postimg.cc/rFC2HM13/CW-Blue-Poly-Pattern-Repeat.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+background-color: ;
+color: white;
+border-top: 1px solid black;
+border-right:0px solid black;
+border-bottom:0px solid black;
+border-left:0px solid black;
+margin: -10px;
+padding: 5px;
+}
+
+/* Disclaimer boxes */
+.disclaimer {
+background-color: white;
+color: black;
+border: 1px solid black;
+margin: 0px;
+padding: 20px;}
+
+/* Disclaimer Boxes Heading (title) */
+h1.disclaimer-heading {
+margin-top: 0;
+color: #384880;
+font-size: 40px;
+margin-bottom: 0.2em;
+font-weight: bold;
+}
+
+/* Disclaimer Body Text */
+p.disclaimer-body {
+margin-bottom: 0px;
+color: black;
+font-size: 20px;
+font-weight: normal;
+}
+
+/* Box for text and additional information */
+.text-box {
+background-color: white;
+color: black;
+border: 1px solid black;
+margin: 0px;
+padding: 20px;
+text-align: center;
+}
+
+/* Text Body Text */
+p.tb1 {
+margin-top: 0;
+color: black;
+font-size: 20px;
+}
+
+/* Footer box with 3 elements (images with text under) */
+.footer {
+background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),url("https://i.postimg.cc/rFC2HM13/CW-Blue-Poly-Pattern-Repeat.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+background-color: black;
+color: white;
+border: 1px solid black;
+margin: 0px;
+padding: 20px;}
+
+/* Footer Body Text */
+p.f2 {
+margin-top: 0;
+color: white;
+font-size: 20px;
+}
+
+/* Font family for document */
+.trebuchet {
+font-family: Trebuchet MS;
+}
+
+/* Flex container for Image with text side by side */
+.flex-container {
+display: flex;
+flex-wrap: nowrap;
+}
+
+.flex-container .box {
+width: 50%;
+margin: 10px;
+text-align: left;
+}
+
+/* Flex container BOX for Images to be side by side and centred */
+.flex-container .image-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+margin:10
+}
+
+/* Slideshow CSS */
+.slideshow {
+width: 100%;
+height:600px;
+top: 0;
+left: 0;
+}
+
+.slide-content {
+position: absolute;
+top: 50%;
+left: 50%;
+color: white;
+text-align: center;
+text-shadow: 0 0 20px rgba(0,0,0,0.5);
+z-index: 1;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+.slide-content p {
+font-size: calc(1rem + 10 * (100vw - 375px)/ (1199 - 375));
+font-weight: 100;
+margin-top: 0;
+margin-bottom: 0.5em;
+}
+
+s1,s2 {
+margin-top: 0;
+
+font-size: calc(2rem + 28 * (100vw - 375px)/ (1199 - 375));
+margin-bottom: 0.2em;
+font-weight: bold;
+}
+
+a {
+color: inherit;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+color: black;
+}
+
+@media (min-width: 1200px) {
+s1,s2 {
+font-size: 60px;
+}
+
+.slide-content p {
+font-size: 26px;
+}
+}
+
+/* Footer element with 3 images with text under */
+/* Horizontal flex: rows */
+.row {
+display: flex;
+}
+
+.item {
+flex: 1 1 30%;
+padding-left: 2rem;
+}
+
+.item:first-child {
+padding-left: 0;
+}
+
+
+/* Vertical flex: items */
+.item {
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+}
+
+.item-heading {
+flex: 1;
+}
+
+
+/* Third flex: item heading */
+.item-heading {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+
+/* Not so important CSS: */
+.row img {
+max-width: 100%;
+height: 150px;
+vertical-align: middle;
+horizontal-align: middle;
+}
+
+.row {
+margin-bottom: 0px;
+}
+
+.item-heading {
+padding: 0px;
+font-size: 20px;
+background:;
+text-align: center;
+}
+
+/* Tables settings */
+table{
+border-collapse: collapse;
+table-layout:auto;
+width:100%;
+}
