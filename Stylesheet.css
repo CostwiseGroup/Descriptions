@@ -151,3 +151,73 @@ font-size: 60px;
 font-size: 26px;
 }
 }
+
+/* Horizontal flex: rows
+=====================
+*/
+
+.row {
+display: flex;
+}
+
+.item {
+flex: 1 1 30%;
+padding-left: 2rem;
+}
+
+.item:first-child {
+padding-left: 0;
+}
+
+/* Vertical flex: items
+===================
+*/
+
+.item {
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+}
+
+.item-heading {
+flex: 1;
+}
+
+/* Third flex: item heading
+========================
+*/
+
+.item-heading {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+
+/* Not so important CSS - base styles:
+===================================
+*/
+.row img {
+max-width: 100%;
+height: 150px;
+vertical-align: middle;
+horizontal-align: middle;
+}
+
+.row {
+margin-bottom: 0px;
+}
+
+.item-heading {
+padding: 0px;
+font-size: 20px;
+background:;
+text-align: center;
+}
+
+table{
+border-collapse: collapse;
+table-layout:auto;
+width:100%;
+}
