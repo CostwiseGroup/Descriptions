@@ -1,3 +1,4 @@
+/* Banner style with poly background*/
 .banner {
 background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),url("https://i.postimg.cc/c4FS2rsj/Essential-Blue-Pink-Poly-Pattern-Repeat.jpg");
 background-repeat: no-repeat;
@@ -12,6 +13,7 @@ margin: -10px;
 padding: 5px;
 }
 
+/* Disclaimer boxes */
 .disclaimer {
 background-color: white;
 color: black;
@@ -19,6 +21,7 @@ border: 1px solid black;
 margin: 0px;
 padding: 20px;}
 
+/* Disclaimer Boxes H1 Heading (title) */
 d1 {
 margin-top: 0;
 color: #384880;
@@ -27,12 +30,14 @@ margin-bottom: 0.2em;
 font-weight: bold;
 }
 
+/* Disclaimer Boxes H2 (text) */
 d2 {
 margin-top: 0;
 color: black;
 font-size: 20px;
 }
 
+/* Box for text and additional information */
 .text-box {
 background-color: white;
 color: black;
@@ -42,12 +47,14 @@ padding: 20px;
 text-align:center;
 }
 
+/* Text Box H1 heading (Title) */
 tb1 {
 margin-top: 0;
 color: black;
-font-size: 24px;
+font-size: 20px;
 }
 
+/* Footer box with 3 elements (images with text under) */
 .footer {
 background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),url("https://i.postimg.cc/c4FS2rsj/Essential-Blue-Pink-Poly-Pattern-Repeat.jpg");
 background-repeat: no-repeat;
@@ -58,24 +65,19 @@ border: 1px solid black;
 margin: 0px;
 padding: 20px;}
 
-f1 {
-margin-top: 0;
-color: #384880;
-font-size: 40px;
-margin-bottom: 0.2em;
-font-weight: bold;
-}
-
+/* Footer H2 (text) */
 f2 {
 margin-top: 0;
 color: white;
 font-size: 20px;
 }
 
+/* Font family for document */
 .trebuchet {
 font-family: Trebuchet MS;
 }
 
+/* Flex container for Image with text side by side */
 .flex-container {
 display: flex;
 flex-wrap: nowrap;
@@ -87,6 +89,7 @@ margin: 10px;
 text-align: left;
 }
 
+/* Flex container BOX for Images to be side by side and centred */
 .flex-container .image-box {
 display: flex;
 flex-direction: column;
@@ -96,7 +99,6 @@ margin:10
 }
 
 /* Slideshow CSS */
-
 .slideshow {
 width: 100%;
 height:600px;
@@ -152,10 +154,8 @@ font-size: 26px;
 }
 }
 
-/* Horizontal flex: rows
-=====================
-*/
-
+/* Footer element with 3 images with text under */
+/* Horizontal flex: rows */
 .row {
 display: flex;
 }
@@ -169,10 +169,8 @@ padding-left: 2rem;
 padding-left: 0;
 }
 
-/* Vertical flex: items
-===================
-*/
 
+/* Vertical flex: items */
 .item {
 display: flex;
 flex-direction: column;
@@ -184,10 +182,8 @@ color: white;
 flex: 1;
 }
 
-/* Third flex: item heading
-========================
-*/
 
+/* Third flex: item heading */
 .item-heading {
 display: flex;
 justify-content: center;
@@ -195,9 +191,7 @@ flex-direction: column;
 }
 
 
-/* Not so important CSS - base styles:
-===================================
-*/
+/* Not so important CSS: */
 .row img {
 max-width: 100%;
 height: 150px;
@@ -216,6 +210,7 @@ background:;
 text-align: center;
 }
 
+/* Tables settings */
 table{
 border-collapse: collapse;
 table-layout:auto;
