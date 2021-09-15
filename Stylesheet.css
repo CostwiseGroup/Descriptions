@@ -21,8 +21,8 @@ border: 1px solid black;
 margin: 0px;
 padding: 20px;}
 
-/* Disclaimer Boxes H1 Heading (title) */
-d1 {
+/* Disclaimer Boxes Heading (title) */
+h1.disclaimer-heading {
 margin-top: 0;
 color: #384880;
 font-size: 40px;
@@ -30,11 +30,12 @@ margin-bottom: 0.2em;
 font-weight: bold;
 }
 
-/* Disclaimer Boxes H2 (text) */
-d2 {
-margin-top: 0;
+/* Disclaimer Body Text */
+p.disclaimer-body {
+margin-bottom: 0px;
 color: black;
 font-size: 20px;
+font-weight: normal;
 }
 
 /* Box for text and additional information */
@@ -44,11 +45,11 @@ color: black;
 border: 1px solid black;
 margin: 0px;
 padding: 20px;
-text-align:center;
+text-align: center;
 }
 
-/* Text Box H1 heading (Title) */
-tb1 {
+/* Text Body Text */
+p.tb1 {
 margin-top: 0;
 color: black;
 font-size: 20px;
@@ -65,8 +66,8 @@ border: 1px solid black;
 margin: 0px;
 padding: 20px;}
 
-/* Footer H2 (text) */
-f2 {
+/* Footer Body Text */
+p.f2 {
 margin-top: 0;
 color: white;
 font-size: 20px;
