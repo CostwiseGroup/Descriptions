@@ -1,6 +1,6 @@
 /* Banner style with poly background*/
 .banner {
-background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),url("https://i.postimg.cc/c4FS2rsj/Essential-Blue-Pink-Poly-Pattern-Repeat.jpg");
+background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),url("https://i.postimg.cc/tTrmT9J2/Essential-Blue-Pink-Poly-Pattern-Repeat-LONG.jpg");
 background-repeat: no-repeat;
 background-size: 100%;
 background-color: ;
@@ -57,7 +57,7 @@ font-size: 20px;
 
 /* Footer box with 3 elements (images with text under) */
 .footer {
-background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),url("https://i.postimg.cc/c4FS2rsj/Essential-Blue-Pink-Poly-Pattern-Repeat.jpg");
+background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),url("https://i.postimg.cc/tTrmT9J2/Essential-Blue-Pink-Poly-Pattern-Repeat-LONG.jpg");
 background-repeat: no-repeat;
 background-size: 100%;
 background-color: black;
@@ -87,6 +87,12 @@ flex-wrap: nowrap;
 .flex-container .box {
 width: 50%;
 margin: 10px;
+text-align: left;
+}
+
+.flex-container .boxImage {
+width: 50%;
+margin: auto 10px;
 text-align: left;
 }
 
