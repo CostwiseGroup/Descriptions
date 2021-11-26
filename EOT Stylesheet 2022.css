@@ -1,0 +1,212 @@
+/* Font family for document */
+.font-face {
+    font-family: Rubik;
+    font-size: 20px;
+}
+
+/* Title box styling */
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("https://i.postimg.cc/tTrmT9J2/Essential-Blue-Pink-Poly-Pattern-Repeat-LONG.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 100%;
+    color: white;
+    border-top: 1px solid black;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+    border-left: 0px solid black;
+    margin: -10px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.inline-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("https://i.postimg.cc/tTrmT9J2/Essential-Blue-Pink-Poly-Pattern-Repeat-LONG.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: white;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+
+/* Footer box with the 3 elements (vector images with text underneath) */
+.footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("https://i.postimg.cc/tTrmT9J2/Essential-Blue-Pink-Poly-Pattern-Repeat-LONG.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 20px;
+}
+
+/* Footer container for the entire footer element with images and text */
+.footer-flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Footer container for the three images at the footer strap */
+.footer-content {
+    display: flex;
+    flex: 1;
+    flex-basis: 100%;
+    align-items: top;
+    justify-content: space-around;
+}
+
+
+/* Footer container for text within the footer flex container  */
+.footer-flex-container p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    vertical-align: text-top;
+}
+
+/* Disclaimer container for the disclaimer texts*/
+.disclaimer-container {
+    background-color: white;
+    border: 1px solid black;
+    margin: 0px;
+    padding: 20px;
+}
+
+
+/* Disclaimer Boxes H1 Heading (title) */
+h2.disclaimer {
+    margin-top: 0;
+    color: #384880;
+    font-size: 2em;
+    margin-bottom: 0.2em;
+    font-weight: bold;
+}
+
+/* Disclaimer Body P Text */
+p.disclaimer {
+    margin-bottom: 0px;
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* Text with left and right padding 20px */
+p.pad-20px-text {
+    padding: 0px 20px 0px 20px;
+}
+
+/* Background colour (off white) */
+.background {
+    padding: 0px;
+    background-color: rgb(240, 245, 240);
+}
+
+/* Bordered container for each of the content sections used*/
+.border-container {
+    border: 1px solid black;
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Centred images */
+.image-centre {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+/* This is a basic flex container */
+.flex-container {
+    display: flex;
+}
+
+/* This is the image flex tag used for having multiple images next to eachother in a 2x2 or 4x4 grid*/
+.image-flex {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* CONTENT WITH TEXT TO LEFT OR RIGHT
+This element has two parts, the content-flex and text-flex.
+Content refers to images, tables etc. The content-flex should be used for everything that is not plain text.
+Text-flex should be used for flex as the column direction tag ensures it looks correct.
+*/
+
+
+/* This is the image flex tag used for having multiple images next to eachother in a 2x2 or 4x4 grid.*/
+.content-flex {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This is the text flex tag used for having text next to content in a flex-container, it has no styling but ensures it has the correct ratio for a 50/50 square with the content */
+.text-flex {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+/* CSS for the slideshow element */
+.slideshow {
+    width: 100vw;
+    height: 70vw;
+    top: 0px;
+    left: 0px;
+}
+
+.slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.slide-content p {
+    font-size: calc(1rem + 10 * (100vw - 375px)/ (1199 - 375));
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+s1, s2 {
+    margin-top: 0;
+
+    font-size: calc(2rem + 28 * (100vw - 375px)/ (1199 - 375));
+    margin-bottom: 0.2em;
+    font-weight: bold;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: black;
+}
+
+@media (min-width: 1200px) {
+
+    s1,
+    s2 {
+        font-size: 60px;
+    }
+
+    .slide-content p {
+        font-size: 26px;
+    }
+}
