@@ -61,7 +61,7 @@
 
 /* Footer container for text within the footer flex container  */
 .footer-flex-container p {
-    font-size: 20px;
+    font-size: 0.9em;
     text-align: center;
     color: white;
     padding: 0px 10px 0px 10px;
@@ -81,7 +81,7 @@
 h2.disclaimer {
     margin-top: 0;
     color: #384880;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 0.2em;
     font-weight: bold;
 }
@@ -90,7 +90,7 @@ h2.disclaimer {
 p.disclaimer {
     margin-bottom: 0px;
     color: black;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: normal;
 }
 
