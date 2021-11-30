@@ -60,6 +60,16 @@
     justify-content: space-around;
 }
 
+.footer-content .shipping {
+    width: 60%;
+    object-fit: contain;
+}
+
+.footer-content .contact {
+    width: 50%;
+    object-fit:contain;
+}
+
 
 /* Footer container for text within the footer flex container  */
 .footer-flex-container p {
@@ -104,7 +114,7 @@ p.pad-20px-text {
 /* Background colour (off white) */
 .background {
     padding: 0px;
-    background-color:rgb(242,243,250);
+    background-color: rgb(240, 245, 240);
 }
 
 /* Bordered container for each of the content sections used*/
@@ -183,7 +193,8 @@ Text-flex should be used for flex as the column direction tag ensures it looks c
     margin-bottom: 0.5em;
 }
 
-s1, s2 {
+s1,
+s2 {
     margin-top: 0;
 
     font-size: calc(2rem + 28 * (100vw - 375px)/ (1199 - 375));
