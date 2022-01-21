@@ -5,6 +5,12 @@
         font-size: 20px;
     }
 
+    @media only screen and (max-width: 768px) {
+        .description-font-face {
+            font-size: 14px;
+        }
+    }
+
     .description-font-face ol > li {
         padding-bottom: 10px;
     }
